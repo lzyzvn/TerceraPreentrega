@@ -55,7 +55,7 @@ ROOT_URLCONF = 'TerceraPreentrega.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['TerceraPreentrega\Preentrega3\templates'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

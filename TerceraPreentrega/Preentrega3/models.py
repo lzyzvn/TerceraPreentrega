@@ -1,5 +1,11 @@
 from django.db import models
 
-class Curso(models.Model):
-    nombre = models.CharField(max_length=40)
-    camada = models.IntegerField()
+class ingresos(models.Model):
+    
+    cantidad = models.IntegerField()
+class ahorros(models.Model):
+    
+    cantidad = models.IntegerField()
+class gastos(models.Model):
+    
+    cantidad = models.IntegerField()
